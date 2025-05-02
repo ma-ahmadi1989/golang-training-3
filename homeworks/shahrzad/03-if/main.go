@@ -4,15 +4,13 @@ import "fmt"
 
 func main() {
 
-	var num1 int16
-	var num2 int16
+	var num int16
 
 	fmt.Print("Enter ur number: ")
-	fmt.Scan(&num1, &num2)
+	fmt.Scan(&num)
 
-	result := num1 + num2
 
-	if result > 0 && result/10 == 0 {
+	if (num>0) && (num%10 == 0) {
 		println("True")
 	}else{
 		println("False")
