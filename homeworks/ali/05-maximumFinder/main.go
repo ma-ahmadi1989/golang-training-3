@@ -6,7 +6,7 @@ func main() {
 	var a, b, c float64
 	fmt.Print("enter number one :")
 	fmt.Scan(&a)
-	fmt.Print("enter nubmer two :")
+	fmt.Print("enter number two :")
 	fmt.Scan(&b)
 	fmt.Print("enter number three :")
 	fmt.Scan(&c)
