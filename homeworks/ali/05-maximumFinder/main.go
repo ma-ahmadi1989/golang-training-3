@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 	var a, b, c float64
-	fmt.Print("enter numer one :")
+	fmt.Print("enter number one :")
 	fmt.Scan(&a)
-	fmt.Print("enter numer two :")
+	fmt.Print("enter nubmer two :")
 	fmt.Scan(&b)
-	fmt.Print("enter numer three :")
+	fmt.Print("enter number three :")
 	fmt.Scan(&c)
 	max := a
 	if a < b && c < b {
